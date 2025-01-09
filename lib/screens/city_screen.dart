@@ -9,14 +9,13 @@ class CityScreen extends StatefulWidget {
 class _CityScreenState extends State<CityScreen> {
   String? cityName;
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/city_background.jpg'),
+            image: AssetImage('imagenes/cascada.jpg'), // Ruta correcta según tu estructura
             fit: BoxFit.cover,
           ),
         ),
